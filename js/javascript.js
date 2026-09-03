@@ -19,3 +19,8 @@ function getComputerChoice() {
     
     return computerChoice;
 }
+
+// Write the logic to get the human choice
+function getHumanChoice() {
+    return prompt("What is your choice?");
+}
