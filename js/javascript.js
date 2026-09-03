@@ -33,7 +33,9 @@ function playGame() {
 
     // Write the logic to play a single round
     function playRound(humanChoice, computerChoice) {
-        switch(humanChoice.toLowerCase()) {
+        const lowerCaseHumanChoice = humanChoice.toLowerCase();
+        
+        switch(lowerCaseHumanChoice) {
             case computerChoice:
                 console.log("It's a tie!");
                 break;
