@@ -24,3 +24,7 @@ function getComputerChoice() {
 function getHumanChoice() {
     return prompt("What is your choice?");
 }
+
+// Write variables to keep track of the players score
+let humanScore = 0;
+let computerScore = 0;
