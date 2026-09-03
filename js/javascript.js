@@ -32,8 +32,7 @@ function playGame() {
     let computerScore = 0;
 
     // Write the logic to play a single round
-    function playRound (humanChoice, computerChoice) {
-        
+    function playRound(humanChoice, computerChoice) {
         switch(humanChoice.toLowerCase()) {
             case computerChoice:
                 console.log("It's a tie!");
@@ -96,10 +95,10 @@ function playGame() {
 
     if(humanScore > computerScore) {
         console.log("The winner is... Human!!!");
-    } else if (humanScore < computerScore) {
+    } else if(humanScore < computerScore) {
         console.log("The winner is... Computer!!!");
     } else {
-        console.log("The winner is... Well, there is not a winner; it's a tie actually.")
+        console.log("The winner is... Well, there is not a winner.");
     }
 
     console.log("===== Stats =====");
